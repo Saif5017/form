@@ -55,12 +55,19 @@ textarea:focus, input:focus{
 
 .table {
     width: 80%;
-    margin: 5% 10%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1400px) {
     .table {
         width: 60%;
-        margin: 5% 5%;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .table {
+        width: 40%;
+        margin: auto;
     }
   }
