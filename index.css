@@ -1,0 +1,66 @@
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.invoice {
+    padding: 15px 0px;
+}
+
+.inv {
+    border-right: none;
+    text-align: left;
+}
+
+.otv {
+    border-left: none;
+}
+
+
+.nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10%;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.autoresizing {
+    display: block;
+    overflow: hidden;
+    resize: none;
+}
+
+#hsncode {
+    text-align: center;
+}
+
+.table {
+    width: 80%;
+    margin: 5% 10%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .table {
+        width: 60%;
+        margin: 5% 5%;
+    }
+  }
